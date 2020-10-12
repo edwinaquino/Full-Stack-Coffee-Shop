@@ -1,0 +1,12 @@
+# Create a zip archive of repository
+# https://stackoverflow.com/questions/12493206/zip-including-hidden-files
+# $ git archive -o ../03_coffee_shop_full_stack.zip master
+
+# Linux Testing Scripts
+backend_start.sh
+frontend_start.sh
+NOTES-PROJECT4
+
+.vscode/*
+./backend/src/__pycache__/*
+frontend/node_modules/*
