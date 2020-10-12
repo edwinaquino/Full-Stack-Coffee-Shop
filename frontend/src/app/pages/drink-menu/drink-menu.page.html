@@ -11,7 +11,9 @@
      *ngFor="let drink of Object.keys(drinks.items)"
      (click)="openForm(drinks.items[drink])">
         <ion-card-header>
-          <ion-card-title>{{drinks.items[drink].title}}</ion-card-title>
+          
+          <ion-card-title>{{drinks.items[drink].title}} [{{drinks.items[drink].id}} ]</ion-card-title>
+          
         </ion-card-header>
       
         <ion-card-content>
