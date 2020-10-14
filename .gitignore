@@ -6,6 +6,7 @@
 backend_start.sh
 frontend_start.sh
 NOTES-PROJECT4
+og-collection.json
 
 .vscode/*
 ./backend/src/__pycache__/*
